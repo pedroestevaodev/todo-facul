@@ -1,69 +1,78 @@
-# Todo List em Next.js com TailwindCSS
+# Todo List in Next.js with TailwindCSS
 
-Este é um projeto simples de Todo List desenvolvido com **Next.js** e **TailwindCSS**. Ele permite adicionar, excluir e reorganizar tarefas por meio de drag-and-drop, sem o uso de pacotes externos.
+<p style="text-align: center;">
+    <a href="https://www.pedroestevao.com">
+        <img src="https://res.cloudinary.com/dge3g9rcw/image/upload/v1747399649/github/odc6gowyyq99knrahu0w.webp" alt="Illustrative image" />
+    </a>
+</p>
 
-## Tecnologias Utilizadas
+This is a simple Todo List project built with **Next.js** and **TailwindCSS**. It allows you to add, delete, and reorder tasks using drag-and-drop, without relying on external libraries.
 
-- [Next.js](https://nextjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
+## Tech Stack
 
-## Funcionalidades
+The project was built using the following technologies and tools:
 
-- Adicionar novas tarefas.
-- Excluir tarefas da lista.
-- Reorganizar a ordem das tarefas por meio de drag-and-drop.
-- Verificação para evitar tarefas duplicadas.
+- [Next.js (App Router)](https://nextjs.org/) - React framework for web applications.
+- [React](https://react.dev/) - JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript superset for static typing.
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for fast and customizable design.
 
-## Instalação e Execução
+## Features
 
-### Pré-requisitos
+- **Add new tasks.**
+- **Delete tasks from the list.**
+- **Reorder tasks using drag-and-drop.**
+- **Validation to prevent duplicate tasks.**
 
-- Ter o compilador Bun instalado
+## Setup & Installation
 
-### Passos para Rodar o Projeto
+### 1. Clone the repository
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-   ```
+```bash
+git clone https://github.com/pedroestevaodev/todo-facul.git
+cd todo-facul
+```
 
-2. Instale as dependências:
-    ```bash
-    bun install
-    ```
+### 2. Install dependencies
 
-3. Execute o projeto em ambiente de desenvolvimento:
-    ```bash
-    bun run dev
-    ```
+```bash
+$ bun install
+```
 
-4. Acesse o aplicativo no navegador em:
-    ```bash
-    http://localhost:3000
-    ```
+### 3. Start the development server
 
-## Estrutura do Projeto
+```bash
+bun run dev
+```
 
-- `app/page.tsx`: Página principal que exibe o componente `TodoList`.
-- `components/TodoItem`: Componente que representa uma tarefa individual com funcionalidades de excluir e arrastar.
-- `components/TodoList`: Componente que gerencia a lista de tarefas e as ações de adicionar, excluir e drag-and-drop.
+Open your browser and visit `http://localhost:3000` to see the project in action.
 
-## Como Usar
+You can start editing the homepage by modifying the `app/page.tsx` file. The browser will automatically update as you make changes to the code.
 
-- Para adicionar uma nova tarefa, digite o nome dela no campo de entrada e clique em Add.
-- Para excluir uma tarefa, clique no botão X ao lado da tarefa.
-- Para reorganizar a lista, arraste a tarefa desejada e solte na nova posição.
-- Se você tentar adicionar uma tarefa com o mesmo nome de outra já existente, o aplicativo exibirá um alerta.
+## Project Structure
 
-## Estilização
+- `app/page.tsx`: Main page that renders the `TodoList` component.
+- `components/TodoItem`: Component that represents an individual task with delete and drag functionalities.
+- `components/TodoList`: Component that manages the list of tasks and handles add, delete, and drag-and-drop actions.
 
-A estilização é feita com TailwindCSS, o que permite uma criação rápida e responsiva dos estilos. O design é minimalista e focado em funcionalidade.
+## How to Use
 
-## Licença
+- To add a new task, type its name in the input field and click Add.
+- To delete a task, click the X button next to it.
+- To reorder tasks, drag and drop the desired task to a new position.
+- If you try to add a task with the same name as an existing one, the app will show an alert.
 
-Este projeto é licenciado sob a MIT License.
+## Styling
+
+Styling is handled with TailwindCSS, enabling fast and responsive UI development. The design is minimalist and focused on functionality.
+
+## License
+
+This project is open source and available under the [MIT License](https://mit-license.org/).  
+<br />
 
 ---
 
-Desenvolvido com 💙 por Pedro Estevão.
+<br />
+
+**Built with ☕ by [Pedro Estevão](https://www.pedroestevao.com)**
