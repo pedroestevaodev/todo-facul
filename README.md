@@ -1,12 +1,14 @@
-# Todo List in Next.js with TailwindCSS
+# Todo List in Next.js with TailwindCSS - Centro Universitário Barão de Mauá
 
 <p style="text-align: center;">
-    <a href="https://www.pedroestevao.com">
-        <img src="https://res.cloudinary.com/dge3g9rcw/image/upload/v1747399649/github/odc6gowyyq99knrahu0w.webp" alt="Illustrative image" />
+    <a href="https://www.baraodemaua.br">
+        <img src="https://res.cloudinary.com/dge3g9rcw/image/upload/v1739232898/github/mto1tierlcwn8pq4fh8r.webp" alt="Logo Centro Universitário Barão de Mauá" />
     </a>
 </p>
 
-This is a simple Todo List project built with **Next.js** and **TailwindCSS**. It allows you to add, delete, and reorder tasks using drag-and-drop, without relying on external libraries.
+This is a simple Todo List project built with Next.js and TailwindCSS. It allows you to add, delete, and reorder tasks using drag-and-drop, without relying on external libraries.
+
+The project was developed as part of the **Programming Paradigms and Patterns** course in the **Computer Science** program at **Centro Universitário Barão de Mauá**, under the guidance of professor Livia Maria de Oliveira Ciabati.
 
 ## Tech Stack
 
@@ -69,10 +71,7 @@ Styling is handled with TailwindCSS, enabling fast and responsive UI development
 ## License
 
 This project is open source and available under the [MIT License](https://mit-license.org/).  
-<br />
 
 ---
 
-<br />
-
-**Built with ☕ by [Pedro Estevão](https://www.pedroestevao.com)**
+**Developed for academic purposes** 🎓
